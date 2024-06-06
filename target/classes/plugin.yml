@@ -1,0 +1,14 @@
+name: GSN-Stick
+version: '1.0 RELEASE'
+main: me.ripex.gsnstick.GSN_Stick
+api-version: '1.20'
+permissions:
+  gsnstick.use:
+    description: Создавать палку.
+    default: false
+commands:
+  gsn:
+    description: Основная команда для GSN палки
+    usage: /<command> [stick]
+    permission: gsnstick.use
+    permission-message: У вас нет разрешения использовать эту команду!
